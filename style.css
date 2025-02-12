@@ -1,0 +1,244 @@
+.navsection{
+    border: 3px solid rgb(38, 82, 82);
+    height: 75px;
+    background-color: rgb(38, 82, 82);
+    
+}
+ul{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    margin: -10px;
+    
+}
+li a:hover{
+    color: rgb(240, 220, 180);
+}
+a{
+    text-decoration: none;
+    /* display: inline; */
+    list-style: none;
+    margin: 10px;
+    color: black;
+}
+a :hover{
+    color: white;
+}
+.hero-section{
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/steak-dinner-recipes-steak-with-onion-cream-sauce-recipe-679005d1718da.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+    height: 450px;
+}
+.fontsection{
+   text-align: center;
+   font-size: larger;
+   font-weight: bolder;
+}
+p{
+    font-size: larger;
+    color: rgb(8, 6, 3);
+    text-align: center;
+    font-weight: bolder;
+}
+.herosection-button{
+    display: flex;
+    justify-content: center;
+
+}
+.hero-section button:hover{
+    border: 3px solid rgb(9, 8, 4);
+    color: rgb(10, 7, 1);
+    background-color: rgb(38, 82, 82);
+}
+button{
+    color: black;
+    background-color: rgb(240, 220, 180);
+    border: 2px solid rgb(240, 220, 180);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 8px;
+    box-shadow: 1px 1px 1px  rgb(6, 5, 2);
+}
+body{
+    background-color: rgb(38, 82, 82);
+}
+.menuheader{
+    text-align: center;
+}
+.section1{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    box-sizing: border-box;
+    gap: 15px;
+    margin-top: 30px;
+    /* border: 3px solid black; */
+}
+
+.div2{
+   /* border: 3px solid black; */
+   box-shadow: 1px 1px 1px black;
+}
+.top{
+    border: 0px solid black;
+}
+.bottom{
+    border: 0px solid black;
+    padding: 5px;
+    
+}
+.div2 button:hover{
+    border: 3px solid rgb(240, 220, 180);
+    color: rgb(10, 7, 1);
+    background-color: rgb(38, 82, 82);
+}
+span{
+    font-weight: bolder;
+    font-size: large;
+}
+.section2{
+    /* border: 3px solid blanchedalmond; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+}
+.section2-div{
+    /* border: 1px solid black; */
+    height: 450px;
+}
+.about{
+    font-size: large;
+    font-weight: lighter;
+    
+}
+.image{
+    /* float: right; */
+    height: 400px;
+    object-fit: center;
+}
+.section3{
+    /* border: 1px solid black; */
+    height: 450px;
+    background-image: url(https://www.mcclainpopcorn.com/wp-content/uploads/2021/09/meal.jpeg) ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.section4{
+    /* border: 1px solid black; */
+    height: 420px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.divform{
+    /* border: 3px solid black; */
+    padding: 20px;
+    
+}
+.divform2{
+    /* border: 3px solid black; */
+    padding: 20px;
+    font-weight: bolder;
+    font-size: x-large;
+   
+}
+.divform-button :hover{
+    border: 3px solid rgb(38, 82, 82);
+    color: rgb(10, 7, 1);
+    background-color: rgb(240, 220, 180); 
+}
+.divform-button button{
+    background-color: rgb(38, 82, 82);
+    border: 3px solid rgb(38, 82, 82);
+}
+.form-getintouch{
+    font-weight: bold;
+    font-size: larger;
+}
+.drink-item{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    height: 300px;
+    gap: 10px;
+}
+.items{
+    /* border: 2px solid black; */
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0, .2);
+}
+.coffee, .wine, .cocktail{
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+.price{
+    color: rgb(240, 220, 180);
+}
+h2{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(240, 220, 180);
+    /* border: 3px solid red; */
+}
+.section5{
+    /* border: 5px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    
+}
+.div-footer{
+    /* border: 3px solid black; */
+    /* height: 180px;
+    width: 200px;
+    padding: 20px;
+    margin: 10px; */
+}
+.footer-hours{
+    border-bottom: 3px solid rgb(38, 82, 82);
+    border-radius: 5px;
+}
+.footer-grid{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.icon2{
+    margin: 10px;
+    color: black;
+}
+footer button{
+    background-color: rgb(38, 82, 82);
+    border: 3px solid rgb(38, 82, 82);
+    
+}
+footer button:hover{
+    border: 3px solid rgb(38, 82, 82);
+    color: rgb(10, 7, 1);
+    background-color: rgb(240, 220, 180);
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .section3{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(https://www.mcclainpopcorn.com/wp-content/uploads/2021/09/meal.jpeg); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+}
+
