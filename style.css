@@ -17,7 +17,7 @@ ul{
     display: none;
 }
 li a:hover{
-    color: coral;
+    color: green;
 }
 a{
     text-decoration: none;
