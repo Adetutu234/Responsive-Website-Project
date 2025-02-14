@@ -54,9 +54,9 @@ p{
 
 }
 .hero-section button:hover{
-    border: 3px solid blanchedalmond;
+    border: 3px solid rgb(44, 87, 41);
     color: rgb(10, 7, 1);
-    background-color: blanchedalmond;
+    background-color: rgb(44, 87, 41);
 }
 button{
     color: black;
@@ -96,9 +96,9 @@ body{
     
 }
 .div2 button:hover{
-    border: 3px solid blanchedalmond;
+    border: 3px solid rgb(44, 87, 41);
     color: rgb(10, 7, 1);
-    background-color: blanchedalmond;
+    background-color: rgb(44, 87, 41);
 }
 span{
     font-weight: bolder;
@@ -154,9 +154,9 @@ span{
    
 }
 .divform-button :hover{
-    border: 3px solid blanchedalmond;
+    border: 3px solid rgb(44, 87, 41);
     color: rgb(10, 7, 1);
-    background-color: blanchedalmond; 
+    background-color: rgb(44, 87, 41); 
 }
 .divform-button button{
     background-color: green;
@@ -230,9 +230,9 @@ footer button{
     
 }
 footer button:hover{
-    border: 3px solid blanchedalmond;
+    border: 3px solid rgb(44, 87, 41);
     color: rgb(10, 7, 1);
-    background-color: blanchedalmond;
+    background-color: rgb(44, 87, 41);
 }
 
 @media(min-width: 576px) and (max-width: 992px){
